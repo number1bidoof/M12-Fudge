@@ -38,9 +38,9 @@ $( () => {
         $(question).toggleClass("hiddenAnswer");
 
         if ($(question).hasClass("hiddenAnswer")) {
-        $(answer).hide();
+        $(answer).slideUp(600);
         } else {
-        $(answer).show();
+        $(answer).slideDown(600);
         }
     });
 
